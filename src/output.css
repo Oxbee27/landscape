@@ -304,6 +304,9 @@
   .border-black {
     border-color: var(--color-black);
   }
+  .bg-\[\#\] {
+    background-color: #;
+  }
   .bg-amber-100 {
     background-color: var(--color-amber-100);
   }
