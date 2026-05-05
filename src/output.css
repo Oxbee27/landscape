@@ -42,6 +42,7 @@
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --font-ox: "Fleur De Leah", cursive;
+    --font-kab: "Kablammo", cursive;
   }
 }
 @layer base {
@@ -255,6 +256,9 @@
   }
   .flex {
     display: flex;
+  }
+  .hidden {
+    display: none;
   }
   .table {
     display: table;
@@ -501,6 +505,9 @@
   }
   .text-end {
     text-align: end;
+  }
+  .font-kab {
+    font-family: var(--font-kab);
   }
   .font-ox {
     font-family: var(--font-ox);
