@@ -228,6 +228,9 @@
   .z-50 {
     z-index: 50;
   }
+  .m-10 {
+    margin: calc(var(--spacing) * 10);
+  }
   .mx-50 {
     margin-inline: calc(var(--spacing) * 50);
   }
@@ -297,8 +300,29 @@
   .h-45 {
     height: calc(var(--spacing) * 45);
   }
+  .h-90 {
+    height: calc(var(--spacing) * 90);
+  }
+  .h-100 {
+    height: calc(var(--spacing) * 100);
+  }
+  .h-110 {
+    height: calc(var(--spacing) * 110);
+  }
+  .h-120 {
+    height: calc(var(--spacing) * 120);
+  }
+  .h-200 {
+    height: calc(var(--spacing) * 200);
+  }
+  .h-400 {
+    height: calc(var(--spacing) * 400);
+  }
   .h-\[80px\] {
     height: 80px;
+  }
+  .h-\[400px\] {
+    height: 400px;
   }
   .h-\[450px\] {
     height: 450px;
@@ -312,6 +336,9 @@
   .w-20 {
     width: calc(var(--spacing) * 20);
   }
+  .w-40 {
+    width: calc(var(--spacing) * 40);
+  }
   .w-60 {
     width: calc(var(--spacing) * 60);
   }
@@ -321,8 +348,20 @@
   .w-100 {
     width: calc(var(--spacing) * 100);
   }
+  .w-350 {
+    width: calc(var(--spacing) * 350);
+  }
   .w-370 {
     width: calc(var(--spacing) * 370);
+  }
+  .w-450 {
+    width: calc(var(--spacing) * 450);
+  }
+  .w-550 {
+    width: calc(var(--spacing) * 550);
+  }
+  .w-800 {
+    width: calc(var(--spacing) * 800);
   }
   .w-\[20px\] {
     width: 20px;
@@ -350,6 +389,15 @@
   }
   .w-\[400px\] {
     width: 400px;
+  }
+  .w-\[450\%\] {
+    width: 450%;
+  }
+  .w-\[450\] {
+    width: 450;
+  }
+  .w-\[450px\] {
+    width: 450px;
   }
   .w-full {
     width: 100%;
@@ -396,6 +444,9 @@
   .justify-items-end {
     justify-items: end;
   }
+  .gap-0 {
+    gap: calc(var(--spacing) * 0);
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
@@ -422,6 +473,21 @@
   }
   .gap-20 {
     gap: calc(var(--spacing) * 20);
+  }
+  .gap-30 {
+    gap: calc(var(--spacing) * 30);
+  }
+  .gap-40 {
+    gap: calc(var(--spacing) * 40);
+  }
+  .gap-50 {
+    gap: calc(var(--spacing) * 50);
+  }
+  .gap-60 {
+    gap: calc(var(--spacing) * 60);
+  }
+  .gap-80 {
+    gap: calc(var(--spacing) * 80);
   }
   .rounded {
     border-radius: 0.25rem;
