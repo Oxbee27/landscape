@@ -718,6 +718,12 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .text-\[\#99CD39\] {
+    color: #99CD39;
+  }
+  .text-\[\#99Cd39\] {
+    color: #99Cd39;
+  }
   .text-black {
     color: var(--color-black);
   }
